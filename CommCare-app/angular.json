@@ -34,7 +34,9 @@
               "src/assets/css/theme-elements.css",
               "src/assets/css/theme-blog.css",
               "src/assets/css/theme-shop.css",
+              "src/assets/Css/vendor/rs-plugin/css/layers.css",
               "src/assets/css/skins/default.css",
+              "src/assets/Css/skins/skin-medical.css",
               "src/assets/css/custom.css",
               "src/styles.css"
 
