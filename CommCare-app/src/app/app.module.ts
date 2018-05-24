@@ -36,13 +36,7 @@ import { DoctorsModule } from './doctors/doctors.module';
     EventDetailsComponent,
     AssignShiftComponent,
     AssignTaskComponent
-<<<<<<< HEAD
    ],
-=======
-
-  ],
-
->>>>>>> 4d7bb130d0ef413f28f5518321f048edc4b1437c
   imports: [
     BrowserModule ,
     DepartmentsModule,
