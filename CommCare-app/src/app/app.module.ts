@@ -15,11 +15,14 @@ import { DoctorItemSmallComponent } from 'src/app/doctors/doctor-item-small/doct
 import { EventAddComponent } from './events/event-add/event-add.component';
 import { EventListingComponent } from './events/event-listing/event-listing.component';
 import { EventDetailsComponent } from './events/event-details/event-details.component';
+import { DepartmentService } from 'src/app/shared/services/department.service';
+
 import { PrescriptionComponent } from 'src/app/prescription/prescription.component';
 import { NavDoctorComponent } from 'src/app/doctors/Nav-doctor/Nav-doctor.component';
 import { HomeDoctorComponent } from './doctors/home-Doctor/home-Doctor.component';
 import { AssignShiftComponent } from './assign-Task/assign-shift/assign-shift.component';
 import { AssignTaskComponent } from './assign-Task/assign-Task.component';
+
 
 
 @NgModule({
@@ -46,7 +49,7 @@ import { AssignTaskComponent } from './assign-Task/assign-Task.component';
     BrowserModule ,
     DepartmentsModule
   ],
-  providers: [],
+  providers: [DepartmentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
