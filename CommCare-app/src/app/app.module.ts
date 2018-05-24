@@ -4,34 +4,27 @@ import {DoctorScheduleComponent} from 'src/app/doctor-schedule/doctor-schedule.c
 import { OnInit } from '@angular/core';
 import { AppComponent } from './app.component';
 import { DepartmentsModule } from 'src/app/departments/departments.module';
-import { DoctorItemSmallComponent } from 'src/app/doctors/doctor-item-small/doctor-item-small.component';
 import { EventAddComponent } from './events/event-add/event-add.component';
 import { EventListingComponent } from './events/event-listing/event-listing.component';
 import { EventDetailsComponent } from './events/event-details/event-details.component';
-import { PrescriptionComponent } from 'src/app/prescription/prescription.component';
-import { NavDoctorComponent } from 'src/app/doctors/Nav-doctor/Nav-doctor.component';
-import { HomeDoctorComponent } from './doctors/home-Doctor/home-Doctor.component';
 import { AssignShiftComponent } from './assign-Task/assign-shift/assign-shift.component';
 import { AssignTaskComponent } from './assign-Task/assign-Task.component';
+import { DoctorsModule } from './doctors/doctors.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     DoctorScheduleComponent,
-    DoctorItemSmallComponent,
     EventAddComponent,
     EventListingComponent,
     EventDetailsComponent,
-    PrescriptionComponent,
-    NavDoctorComponent,
-    HomeDoctorComponent,
     AssignShiftComponent,
     AssignTaskComponent
-
-  ],
+   ],
   imports: [
     BrowserModule ,
-    DepartmentsModule
+    DepartmentsModule,
+    DoctorsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
