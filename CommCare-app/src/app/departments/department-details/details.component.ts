@@ -10,7 +10,7 @@ import { DepartmentService } from 'src/app/shared/services/department.service';
 export class DetailsComponent implements OnInit {
   @Input() department: Idepartment;
   constructor(private deptservice:DepartmentService) {
-    this.department=deptservice.getAll();
+    /* this.department=deptservice.getAll(); */
    }
 
   ngOnInit() {
