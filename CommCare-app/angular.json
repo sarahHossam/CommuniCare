@@ -23,6 +23,10 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/bootstrap3/dist/css/bootstrap.css",
+               "src/assets/css/theme.css",
+               "src/assets/css/theme-element.css",
               "src/styles.css"
             ],
             "scripts": []
