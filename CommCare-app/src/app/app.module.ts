@@ -8,6 +8,7 @@ import { DoctorItemSmallComponent } from 'src/app/doctors/doctor-item-small/doct
 import { EventAddComponent } from './events/event-add/event-add.component';
 import { EventListingComponent } from './events/event-listing/event-listing.component';
 import { EventDetailsComponent } from './events/event-details/event-details.component';
+import { DepartmentService } from 'src/app/shared/services/department.service';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { EventDetailsComponent } from './events/event-details/event-details.comp
     BrowserModule ,
     DepartmentsModule
   ],
-  providers: [],
+  providers: [DepartmentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
