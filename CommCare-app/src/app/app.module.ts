@@ -8,6 +8,8 @@ import { DoctorItemSmallComponent } from 'src/app/doctors/doctor-item-small/doct
 import { EventAddComponent } from './events/event-add/event-add.component';
 import { EventListingComponent } from './events/event-listing/event-listing.component';
 import { EventDetailsComponent } from './events/event-details/event-details.component';
+import { PrescriptionComponent } from 'src/app/prescription/prescription.component';
+import { NavDoctorComponent } from 'src/app/doctors/Nav-doctor/Nav-doctor.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,10 @@ import { EventDetailsComponent } from './events/event-details/event-details.comp
     DoctorItemSmallComponent,
     EventAddComponent,
     EventListingComponent,
-    EventDetailsComponent
+    EventDetailsComponent,
+    PrescriptionComponent,
+    NavDoctorComponent
+
   ],
   imports: [
     BrowserModule ,
