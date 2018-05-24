@@ -1,11 +1,12 @@
 
 /* _________________________________header-bar____________________________________- */
-.header-bar{
+.header-bar-dr{
     background-color: #008fe2;
-    height: 50px;
+    height: 57px;
+   margin-top: 77px;
   
     }
-    .header-bar .pages-path div{
+    .header-bar-dr .pages-path div{
     
         margin-left: 20px;
         font-size: 21px;
@@ -14,10 +15,10 @@
         padding-top: 13px;
         cursor: pointer
     } 
-    .header-bar .pages-path div:hover{
+    .header-bar-dr .pages-path div:hover{
       color: #eee;
     }
-     .header-bar .pages-path div span {
+     .header-bar-dr .pages-path div span {
         font-size: 15px;
         color: #eee;
         padding-left: 20px;
@@ -37,7 +38,7 @@
     .social-links li a:hover{
         text-decoration:none;
     }
-    .header-bar .social-links li{
+    .header-bar-dr .social-links li{
         padding-top: 10px;
         padding-right: 10px;
         /* border: 1px solid #dddcdc; */
@@ -63,12 +64,12 @@
     .right{
         margin-right: -636px;
     }
-    .header-bar .social-links li span{
+    .header-bar-dr .social-links li span{
     color: rgb(43, 42, 42);
     padding-left: 10px;
     font-size: 17px;
     }
-    .header-bar .social-links li span:hover{
+    .header-bar-dr .social-links li span:hover{
         color:#fff3f5;
     }
     .badgee{

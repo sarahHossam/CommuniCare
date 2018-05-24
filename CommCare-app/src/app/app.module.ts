@@ -10,6 +10,9 @@ import { EventListingComponent } from './events/event-listing/event-listing.comp
 import { EventDetailsComponent } from './events/event-details/event-details.component';
 import { PrescriptionComponent } from 'src/app/prescription/prescription.component';
 import { NavDoctorComponent } from 'src/app/doctors/Nav-doctor/Nav-doctor.component';
+import { HomeDoctorComponent } from './doctors/home-Doctor/home-Doctor.component';
+import { AssignShiftComponent } from './assign-Task/assign-shift/assign-shift.component';
+import { AssignTaskComponent } from './assign-Task/assign-Task.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { NavDoctorComponent } from 'src/app/doctors/Nav-doctor/Nav-doctor.compon
     EventListingComponent,
     EventDetailsComponent,
     PrescriptionComponent,
-    NavDoctorComponent
+    NavDoctorComponent,
+    HomeDoctorComponent,
+    AssignShiftComponent,
+    AssignTaskComponent
 
   ],
   imports: [
