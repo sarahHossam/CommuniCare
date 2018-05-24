@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {DoctorScheduleComponent} from 'src/app/doctor-schedule/doctor-schedule.component';
 import { OnInit } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { DepartmentsModule } from 'src/app/departments/departments.module';
 import { DoctorItemSmallComponent } from 'src/app/doctors/doctor-item-small/doctor-item-small.component';
@@ -13,6 +13,7 @@ import { DepartmentService } from 'src/app/shared/services/department.service';
 @NgModule({
   declarations: [
     AppComponent,
+    DoctorScheduleComponent,
     DoctorItemSmallComponent,
     EventAddComponent,
     EventListingComponent,
