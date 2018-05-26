@@ -27,7 +27,6 @@
   /*#1d2654*/
   .menu li a:before {
     font-family: FontAwesome;
-    speak: none;
     text-indent: 0em;
     position: absolute;
     top: 0;
@@ -1107,10 +1106,7 @@ color:#0088cc;
    position: relative;
    top: -52px;
 }
-.aboutdr{
-  
-  
-}
+
 .aboutdr h2{
   padding-top: 90px;
   padding-left: 40px;
